@@ -1,0 +1,26 @@
+@media (max-width: 700px) {
+	.container {
+		padding: 130px 31px;
+	}
+	.body-content .section {
+		width: 100%;
+	}
+	.body-content .left-content {
+		margin-bottom: 40px;
+	}
+	.left-content .body-description {
+		font-size: 1.25rem;
+		margin-bottom: 30px;
+		line-height: 1.6;
+		letter-spacing: 0;
+		text-align: left;
+	}
+	.body-content .right-content {
+		position: static;
+		right: 0;
+		top: 130px;
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+}
